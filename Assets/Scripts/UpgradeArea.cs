@@ -9,6 +9,11 @@ public class UpgradeArea : MonoBehaviour
     private int coinsSpent;
     private Coroutine upgradeRoutine;
 
+    private void Start()
+    {
+        GameManager.Instance.SetUpgradeCost(upgradeCost - coinsSpent);
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         var stack = other.GetComponent<BodyStackManager>();
@@ -29,8 +34,6 @@ public class UpgradeArea : MonoBehaviour
 
     private IEnumerator UpgradeLoop()
     {
-        coinsSpent = 0;
-
         while (true)
         {
             if (GameManager.Instance.GetMoney() > 0)
@@ -41,8 +44,11 @@ public class UpgradeArea : MonoBehaviour
                 if (coinsSpent >= upgradeCost)
                 {
                     GameManager.Instance.AddBodyCapacity(1);
+                    GameManager.Instance.UpgradeCharColor();
                     coinsSpent = 0;
                 }
+
+                GameManager.Instance.SetUpgradeCost(upgradeCost - coinsSpent);
             }
 
             yield return new WaitForSeconds(upgradeDelay);

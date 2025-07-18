@@ -38,12 +38,4 @@ public class PlayerAutoPunch : MonoBehaviour
         yield return new WaitForSeconds(delay);
         enemy.ActivateRagdoll(transform.forward * 5f + Vector3.up * 2f);
     }
-
-#if UNITY_EDITOR
-    private void OnDrawGizmosSelected()
-    {
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, punchRadius);
-    }
-#endif
 }

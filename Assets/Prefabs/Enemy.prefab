@@ -1579,6 +1579,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isRagdolled: 0
+  canBeCollected: 0
+  collectionDelay: 1.5
   rb: {fileID: 1334940775058954584}
   ragdollRBs:
   - {fileID: 5422103153217458574}
@@ -1604,6 +1606,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd54a97e08613224eb796472db1b121d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyRenderer: {fileID: 2066134260431667079}
   grabPoint: {fileID: 7493227133541621202}
 --- !u!95 &5388644275827002471
 Animator:

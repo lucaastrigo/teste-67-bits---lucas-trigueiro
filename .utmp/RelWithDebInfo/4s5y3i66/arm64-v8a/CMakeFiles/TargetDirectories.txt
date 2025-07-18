@@ -1,0 +1,8 @@
+D:/Unity Hub/Projects/teste 67 bits - lucas trigueiro/.utmp/RelWithDebInfo/4s5y3i66/arm64-v8a/CMakeFiles/edit_cache.dir
+D:/Unity Hub/Projects/teste 67 bits - lucas trigueiro/.utmp/RelWithDebInfo/4s5y3i66/arm64-v8a/CMakeFiles/rebuild_cache.dir
+D:/Unity Hub/Projects/teste 67 bits - lucas trigueiro/.utmp/RelWithDebInfo/4s5y3i66/arm64-v8a/GameActivity/CMakeFiles/game.dir
+D:/Unity Hub/Projects/teste 67 bits - lucas trigueiro/.utmp/RelWithDebInfo/4s5y3i66/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+D:/Unity Hub/Projects/teste 67 bits - lucas trigueiro/.utmp/RelWithDebInfo/4s5y3i66/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir
+D:/Unity Hub/Projects/teste 67 bits - lucas trigueiro/.utmp/RelWithDebInfo/4s5y3i66/arm64-v8a/FramePacing/CMakeFiles/swappywrapper.dir
+D:/Unity Hub/Projects/teste 67 bits - lucas trigueiro/.utmp/RelWithDebInfo/4s5y3i66/arm64-v8a/FramePacing/CMakeFiles/edit_cache.dir
+D:/Unity Hub/Projects/teste 67 bits - lucas trigueiro/.utmp/RelWithDebInfo/4s5y3i66/arm64-v8a/FramePacing/CMakeFiles/rebuild_cache.dir
